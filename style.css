@@ -1,7 +1,12 @@
 body {
     background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px 100px;
+    margin: 30px 150px;
+    /* A.I Generated Background Design that I tested
+    background-image:
+        linear-gradient(to right, #0066ff22 1px, transparent 1px),
+        linear-gradient(to bottom, #0066ff22 1px, transparent 1px);
+    background-size: 30px 30px; */
 }
 
 p {
@@ -22,7 +27,8 @@ h2,
 .projects a {
     border: 2px solid rgb(0, 102, 255);
     padding: 5px;
-    margin: 5px auto;
+    margin: 10px auto;
+    background-color: white;
 }
 .projects img{
     height: auto;
@@ -59,15 +65,14 @@ footer p {
 /* Added flex box */
 .projects .projectDetails {
     display: flex;
-    width: 700px;
-    height: auto;
 }
 
 .projects .codeOutput {
     flex: 1 1 0;
+    margin: auto;
 }
 
 .projects .description {
     flex: 2 1 0;
-    margin: 20px;
+    margin: 10px;
 }
