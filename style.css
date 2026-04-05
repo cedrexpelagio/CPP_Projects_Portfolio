@@ -13,9 +13,9 @@ strong {
 
 header,
 h1,
-.listPhases,
 h2,
 .links li,
+.listPhases section,
 .projects img,
 .projects section,
 .projects a {
@@ -29,9 +29,13 @@ h2,
     box-sizing: border-box;
 }
 h1,
-main,
 main #title {
     display: inline-block;
+}
+
+main, .listPhases {
+    width: fit-content;
+    margin: 0;
 }
 
 .links ol {
