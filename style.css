@@ -63,3 +63,19 @@ h2,
 footer p {
     text-align: center;
 }
+
+/* Added flex box */
+.projects .projectDetails {
+    display: flex;
+    width: 700px;
+    height: auto;
+}
+
+.projects .codeOutput {
+    flex: 1 1 0;
+}
+
+.projects .description {
+    flex: 2 1 0;
+    margin: 20px;
+}
