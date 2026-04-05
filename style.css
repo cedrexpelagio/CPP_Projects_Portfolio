@@ -1,6 +1,7 @@
 body {
     background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 100px;
 }
 
 p {
@@ -27,15 +28,6 @@ h2,
     height: auto;
     width: 300px;
     box-sizing: border-box;
-}
-h1,
-main #title {
-    display: inline-block;
-}
-
-main, .listPhases {
-    width: fit-content;
-    margin: 0;
 }
 
 .links ol {
