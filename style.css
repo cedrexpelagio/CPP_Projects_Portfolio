@@ -30,6 +30,14 @@ h2,
     margin: 10px auto;
     background-color: white;
 }
+
+header h1 {
+    display: inline-block;
+}
+
+header {
+    border: 10px solid white;
+}
 .projects img{
     height: auto;
     width: 300px;
