@@ -1,14 +1,15 @@
 body {
     background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 30px 150px;
-    /* A.I Generated Background Design that I tested
+    /* A.I Generated Background Design that I tested */
     background-image:
         linear-gradient(to right, #0066ff22 1px, transparent 1px),
         linear-gradient(to bottom, #0066ff22 1px, transparent 1px);
-    background-size: 30px 30px; */
+    background-size: 30px 30px;
+    max-width: 960px;
+    margin: 30px auto;  /* auto centers it on wide screens */
+    padding: 0 20px;    /* breathing room on small screens */
 }
-
 p {
     text-align: justify;
 }
@@ -40,9 +41,17 @@ header {
 }
 .projects img{
     height: auto;
-    width: 300px;
+    max-width: 300px; 
+    width: 100%;  
     box-sizing: border-box;
 }
+
+@media (max-width: 600px) {
+    .projects .projectDetails {
+        flex-direction: column;
+    }
+}
+
 
 .links ol {
     display: block;
@@ -73,10 +82,11 @@ footer p {
 /* Added flex box */
 .projects .projectDetails {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .projects .codeOutput {
-    flex: 1 1 0;
+    flex: 1 3 0;
     margin: auto;
 }
 
